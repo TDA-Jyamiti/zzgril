@@ -25,13 +25,13 @@ First clone this repo to say $ZZGRIL. Then create a conda environment by
 ```python
 get_ISRUC_S3.sh
 ```
-This will download 10 files in <code>rawdata/RawData/</code> and 10 files in rawdata/ExtractedChannels/.
+This will download 10 files in <code>rawdata/RawData/</code> and 10 files in <code>rawdata/ExtractedChannels/</code>.
 
 #### Running the Experiment
 ```python
 python preprocess_ISRUC_for_zzgril.py
 ```
-This will preprocess ISRUC_S3 data and convert into a sequence of graphs and store the result in data/ISRUC_S3/.
+This will preprocess ISRUC_S3 data and convert into a sequence of graphs and store the result in <code>data/ISRUC_S3/</code>.
 ```python
 python compute_zz_graph_ISRUC.py --num_center_pts 36 --fold 0
 ```
@@ -40,7 +40,7 @@ This will compute ZZGRIL for the sequence of graphs and store the result in save
 cd STDP-GCN
 python train.py --num_center_pts 36 --use_only_lambda_0 False
 ```
-This will augment ZZ-GRIL to STDP-GCN framework and train the model. --use_only_lambda_0 flag is used to denote if you are inclined to not use the information in H_1.
+This will augment ZZ-GRIL to STDP-GCN framework and train the model. <code>--use_only_lambda_0</code> flag is used to denote if you are inclined to not use the information in $$H_1$$.
 
 ### UEA Experiments
 ```python
