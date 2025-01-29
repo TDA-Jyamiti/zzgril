@@ -15,10 +15,8 @@ First clone this repo to say $ZZGRIL. Then create a conda environment by
 
 **Additional Dependencies:**
 
-1. Boost
-2. OpenMP
-3. aeon
-4. fzz (https://github.com/TDA-Jyamiti/fzz)
+1. aeon
+2. fzz (https://github.com/TDA-Jyamiti/fzz)
 
 ## Running Experiments
 
