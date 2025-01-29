@@ -18,6 +18,9 @@ First clone this repo to say $ZZGRIL. Then create a conda environment by
 1. aeon
 2. fzz (https://github.com/TDA-Jyamiti/fzz)
 
+## ZZGRIL Visualization
+![image](zz_gril_vis.pdf)
+
 ## Running Experiments
 
 ### ISRUC Experiments
