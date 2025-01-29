@@ -8,7 +8,7 @@ First clone this repo to say $ZZGRIL. Then create a conda environment by
 
     conda create -n zzgril python=3.10.4
     
-    conda activate mpml
+    conda activate zzgril
 
     conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia    
     
@@ -44,10 +44,19 @@ python train.py --num_center_pts 36 --use_only_lambda_0 False
 This will augment ZZ-GRIL to STDP-GCN framework and train the model. <code>--use_only_lambda_0</code> flag is used to denote if you are inclined to not use the information in $$H_1$$.
 
 ### UEA Experiments
+To convert the multivariate time series into sequence of graphs and compute ZZGRIL, run
 ```python
-python train_engine.py --dataset PROTEINS --model GIN_MPML
+python compute_zz_graph_UEA.py --dataset NATOPS --num_center_pts 36 --num_vert 24
 ```
-To run graph experiments on PROTEINS dataset.
+Note that <code>--num_vert</code> flag denotes the number of time series in the dataset.
 
+To convert the multivariate time series into sequence of point clouds and compute ZZGRIL, run
+```python
+python compute_zz_pcd_UEA.py --dataset NATOPS --num_center_pts 36
+```
 
-
+<code>cd TodyNet </code>
+```python
+python train.py --dataset NATOPS --num_center_pts 36 --use_only_lambda_0 False --gril_graphs True
+```
+This will augment ZZGRIL to TodyNet and train the model. <code>--use_only_lambda_0</code> flag is used to denote if you are inclined to not use the information in $$H_1$$, <code>--gril_graphs</code> flag is used to denote if you are using ZZGRIL processed as a sequence of graphs or as a sequence of point clouds.
