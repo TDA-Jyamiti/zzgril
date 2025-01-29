@@ -55,7 +55,7 @@ To convert the multivariate time series into sequence of point clouds and comput
 python compute_zz_pcd_UEA.py --dataset NATOPS --num_center_pts 36
 ```
 
-<code>cd TodyNet </code>
+<code>cd TodyNet/ </code>
 ```python
 python train.py --dataset NATOPS --num_center_pts 36 --use_only_lambda_0 False --gril_graphs True
 ```
