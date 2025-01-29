@@ -19,7 +19,7 @@ First clone this repo to say $ZZGRIL. Then create a conda environment by
 2. fzz (https://github.com/TDA-Jyamiti/fzz)
 
 ## ZZGRIL Visualization
-![image](zz_gril_vis.pdf)
+![ZZGRIL](zz_gril_vis.pdf)
 
 ## Running Experiments
 
