@@ -41,7 +41,7 @@ This will compute ZZGRIL for the sequence of graphs and store the result in save
 ```python
 python train.py --num_center_pts 36 --use_only_lambda_0 False
 ```
-This will augment ZZ-GRIL to STDP-GCN framework and train the model. <code>--use_only_lambda_0</code> flag is used to denote if you are inclined to not use the information in $$H_1$$.
+This will augment ZZ-GRIL to STDP-GCN framework and train the model. <code>--use_only_lambda_0</code> flag is used to denote if you do not want to use the information in $$H_1$$.
 
 ### UEA Experiments
 To convert the multivariate time series into sequence of graphs and compute ZZGRIL, run
@@ -59,4 +59,4 @@ python compute_zz_pcd_UEA.py --dataset NATOPS --num_center_pts 36
 ```python
 python train.py --dataset NATOPS --num_center_pts 36 --use_only_lambda_0 False --gril_graphs True
 ```
-This will augment ZZGRIL to TodyNet and train the model. <code>--use_only_lambda_0</code> flag is used to denote if you are inclined to not use the information in $$H_1$$, <code>--gril_graphs</code> flag is used to denote if you are using ZZGRIL processed as a sequence of graphs or as a sequence of point clouds.
+This will augment ZZGRIL to TodyNet and train the model. <code>--use_only_lambda_0</code> flag is used to denote if you do not want to use the information in $$H_1$$, <code>--gril_graphs</code> flag is used to denote if you are using ZZGRIL processed as a sequence of graphs or as a sequence of point clouds.
