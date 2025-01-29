@@ -26,8 +26,8 @@ parser.add_argument('--lr', type=float, default=1e-4, help="initial learning rat
 parser.add_argument('--weight_decay', type=float, default=5e-4, help="weight decay l2 loss on parameters")
 parser.add_argument('--shuffle', type=bool, default=True, help='dropout rate 1-keep probability')
 parser.add_argument('--dropout', type=float, default=0.5, help='dropout rate 1-keep probability')
-parser.add_argument('--num_center_pts', type=int, default=36, help='number of center points for zz graph')
-parser.add_argument('--use_only_lambda_0', type=bool, default=False, help='whether to use only lambda 0 for zz graph')
+parser.add_argument('--num_center_pts', type=int, default=36, help='the number of center points to compute zz_gril')
+parser.add_argument('--use_only_lambda_0', type=bool, default=False, help='whether to use only lambda 0 or use both lambda 0 and lambda 1 for zz_gril')
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
 
