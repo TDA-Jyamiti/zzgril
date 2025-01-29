@@ -25,7 +25,7 @@ First clone this repo to say $ZZGRIL. Then create a conda environment by
 ```python
 get_ISRUC_S3.sh
 ```
-This will download 10 files in rawdata/RawData/ and 10 files in rawdata/ExtractedChannels/.
+This will download 10 files in <code>rawdata/RawData/</code> and 10 files in rawdata/ExtractedChannels/.
 
 #### Running the Experiment
 ```python
