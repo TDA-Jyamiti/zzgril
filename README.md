@@ -63,3 +63,9 @@ python compute_zz_pcd_UEA.py --dataset NATOPS --num_center_pts 36
 python train.py --dataset NATOPS --num_center_pts 36 --use_only_lambda_0 False --gril_graphs True
 ```
 This will augment ZZGRIL to TodyNet and train the model. <code>--use_only_lambda_0</code> flag is used to denote if you do not want to use the information in $H_1$, <code>--gril_graphs</code> flag is used to denote if you are using ZZGRIL processed as a sequence of graphs or as a sequence of point clouds.
+
+## License
+
+THIS SOFTWARE IS PROVIDED "AS-IS". THERE IS NO WARRANTY OF ANY KIND. NEITHER THE AUTHORS NOR PURDUE UNIVERSITY WILL BE LIABLE FOR ANY DAMAGES OF ANY KIND, EVEN IF ADVISED OF SUCH POSSIBILITY.
+
+This software was developed (and is copyrighted by) the CGTDA research group at Purdue University. Please do not redistribute this software. This program is for academic research use only.
