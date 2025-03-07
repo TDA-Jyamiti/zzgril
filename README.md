@@ -1,6 +1,6 @@
 # Quasi Zigzag Persistence: A Topological Framework for Analyzing Time-Varying Data
 
-This codebase contains the implementation of the algorithms in [Quasi Zigzag Persistence: A Topological Framework for Analyzing Time-Varying Data](https://arxiv.org/abs/2502.16049) and experiments with ZZ-GRIL. 
+This codebase contains the implementation of the algorithms in the paper [Quasi Zigzag Persistence: A Topological Framework for Analyzing Time-Varying Data](https://arxiv.org/abs/2502.16049) by Tamal K. Dey and Shreyas N. Samaga. 
 
 
 ## Instructions
