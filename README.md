@@ -1,6 +1,6 @@
 # Quasi Zigzag Persistence: A Topological Framework for Analyzing Time-Varying Data
 
-This codebase contains implementation and experiments with ZZ-GRIL. 
+This codebase contains the implementation of the algorithms in [Quasi Zigzag Persistence: A Topological Framework for Analyzing Time-Varying Data](https://arxiv.org/abs/2502.16049) and experiments with ZZ-GRIL. 
 
 
 ## Instructions
@@ -69,3 +69,15 @@ This will augment ZZGRIL to TodyNet and train the model. <code>--use_only_lambda
 THIS SOFTWARE IS PROVIDED "AS-IS". THERE IS NO WARRANTY OF ANY KIND. NEITHER THE AUTHORS NOR PURDUE UNIVERSITY WILL BE LIABLE FOR ANY DAMAGES OF ANY KIND, EVEN IF ADVISED OF SUCH POSSIBILITY.
 
 This software was developed (and is copyrighted by) the CGTDA research group at Purdue University. Please do not redistribute this software. This program is for academic research use only.
+
+## Citation
+
+```
+
+@article{qzzpers,
+  title={Quasi Zigzag Persistence: A Topological Framework for Analyzing Time-Varying Data},
+  author={Dey, Tamal K. and Samaga, Shreyas N.},
+  journal={arXiv preprint arXiv:2502.16049},
+  year={2025}
+}
+```
