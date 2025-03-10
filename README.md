@@ -6,7 +6,7 @@ This codebase contains the implementation of the algorithms in the paper [Quasi 
 
 
 ![CGTDA group at Purdue](/logo.jpg "CGTDA group at Purdue")
-This project is developed by [Shreyas N. Samaga](https://samagashreyas.github.io) and [Tamal K. Dey](https://www.cs.purdue.edu/homes/tamaldey/) under the [CGTDA](https://www.cs.purdue.edu/homes/tamaldey/CGTDAwebsite/) research group at Purdue University led by Prof. [Tamal Dey](https://www.cs.purdue.edu/homes/tamaldey/).
+This project is developed by [Shreyas N. Samaga](https://samagashreyas.github.io) and [Tamal K. Dey](https://www.cs.purdue.edu/homes/tamaldey/) under the [CGTDA](https://www.cs.purdue.edu/homes/tamaldey/CGTDAwebsite/) research group at Purdue University led by Prof. [Tamal K. Dey](https://www.cs.purdue.edu/homes/tamaldey/).
 
 ## Instructions
 First clone this repo to say $ZZGRIL. Then create a conda environment by
