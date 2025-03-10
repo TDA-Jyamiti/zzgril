@@ -2,6 +2,11 @@
 
 This codebase contains the implementation of the algorithms in the paper [Quasi Zigzag Persistence: A Topological Framework for Analyzing Time-Varying Data](https://arxiv.org/abs/2502.16049) by Tamal K. Dey and Shreyas N. Samaga. 
 
+## Group Information
+
+
+![CGTDA group at Purdue](/logo.jpg "CGTDA group at Purdue")
+This project is developed by [Shreyas N. Samaga](https://samagashreyas.github.io) and [Tamal K. Dey](https://www.cs.purdue.edu/homes/tamaldey/) under the [CGTDA](https://www.cs.purdue.edu/homes/tamaldey/CGTDAwebsite/) research group at Purdue University led by Prof. [Tamal Dey](https://www.cs.purdue.edu/homes/tamaldey/).
 
 ## Instructions
 First clone this repo to say $ZZGRIL. Then create a conda environment by
